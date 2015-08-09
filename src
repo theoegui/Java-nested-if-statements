@@ -1,0 +1,16 @@
+class nestedifstatements{
+ public static void main(String args[]){
+	int age=60;
+	
+	if(age < 50){
+		System.out.println("Your Old");
+		}else{
+		System.out.println("Your tool old");
+		if(age > 75) {
+		System.out.println("Your are really old");
+		}else{
+		System.out.println("Dont worry, I dont think your that old");
+		}
+	}
+ }
+}
